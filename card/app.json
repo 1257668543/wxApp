@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/mycard/mycard",
+    "pages/hongbao/hongbao"   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的智能名片",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

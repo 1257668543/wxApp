@@ -1,0 +1,320 @@
+/* pages/mycard/mycard.wxss */
+.card-wrapper{
+    padding: 15px;
+    background-color: #f5fafe;
+    position: relative;
+}
+
+.user-info{
+    margin-bottom: 0.667rem;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px #eee;
+}
+
+.pic-top{
+    width: 100%;  
+}
+
+.header-name{
+    margin-top: 5px;
+    display: flex;
+}
+
+.name{
+    margin-left: 10px;
+}
+
+.header-name_pic{
+    width: 16px;
+    height: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.person-cha{
+    display: flex;
+}
+
+.cha1{
+    width: 40px;
+    height: 20px;
+    margin-left: 10px;
+    background-color: blue;
+}
+
+.cha2{
+    width: 60px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: green;
+}
+
+.cha3{
+    width: 53px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: orange;
+}
+
+.cha{
+    font-size: 10px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.user-instruct1{
+    display: flex;
+    height: 22px;
+    margin-top: 5px;
+}
+
+.user-instruct1_left{
+    text-align: center;
+    display: flex;
+    font-size: 10px;
+    width: 115px;
+    margin-left: 5px;
+}
+
+.user-instruct1_left text{
+    line-height: 20px;
+    colar:#b0b0b0
+}
+
+.user-instruct1_left image{
+    width: 22px;
+    height: 22px;
+}
+
+.user-instruct1_right{
+    text-align: center;
+    display: flex;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.user-instruct1_right text{
+    line-height: 20px;
+}
+
+.user-instruct1_right image{
+    margin-top: 1px;
+    width: 21px;
+    height: 21px;
+}
+
+.user-instruct2{
+    display: flex;
+    height: 22px;
+    margin-top: 5px;
+}
+
+.user-instruct3{
+    height: 22px;
+    margin-top: 5px;
+}
+
+.looksMe{
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #eee;
+    background-color: #fff;
+    
+}
+.user_pic{
+    overflow: hidden;
+    margin-left: 7rpx;
+}
+
+.user_pic image{
+    width: 72rpx;
+    height: 72rpx;
+    border-radius: 50%;
+}
+
+.sum-people{
+    line-height: 13px;
+    font-size: 24rpx;
+    margin-left: 70rpx;
+}
+
+.jiantou{
+    margin-left: 10rpx;
+    margin-top: 15px;
+    width: 17rpx;
+    height: 17rpx;
+    border-right: 1rpx solid black;
+    border-top: 1rpx solid black;
+    transform: rotate(45deg);
+}
+
+.support{
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #eee;
+    background-color: #fff;
+}
+
+.st-left{
+    height: 28rpx;
+    border-left: 2px solid #48a6fd;
+}
+
+.support-top{
+    padding-top: 29rpx;
+    display: flex;
+}
+
+.support-top text{
+    margin-left: 15rpx;
+    height: 28rpx;
+    line-height: 13px;
+    font-size: 15px;
+}
+
+.support-bottom{
+    margin-top: 29rpx;
+    margin-left: 17rpx;
+    font-size: 15px;
+    padding-bottom: 24rpx;
+}
+
+.exception{
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #eee;
+    background-color: #fff;
+}
+
+.exception-top{
+    padding-top: 29rpx;
+    display: flex;
+}
+
+.exception-top text{
+    margin-left: 15rpx;
+    height: 28rpx;
+    line-height: 13px;
+    font-size: 15px;
+}
+
+.exception-bottom{
+    margin-top: 29rpx;
+    margin-left: 17rpx;
+    font-size: 15px;
+    padding-bottom: 24rpx;
+}
+
+.et-left{
+    height: 28rpx;
+    border-left: 2px solid #1dca42;
+}
+
+.adv{
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #eee;
+    background-color: #fff;
+}
+
+.adv image{
+    height: 188rpx;
+    width: 690rpx;
+}
+
+.per-brand_top{
+    padding-top: 29rpx;
+    display: flex;
+}
+
+.per-brand_top text{
+    margin-left: 15rpx;
+    height: 28rpx;
+    line-height: 13px;
+    font-size: 15px;
+}
+
+
+.pd-left{
+    height: 28rpx;
+    border-left: 2px solid #fb8800;
+}
+
+.brandSum{
+    display: flex;
+}
+
+.brandSum image{
+    width: 202rpx;
+    height: 202rpx;
+}
+
+.brand1{
+    margin-left: 22rpx;
+}
+
+.brand2{
+    margin-left: 22rpx;
+}
+
+.brand3{
+    margin-left: 22rpx;
+}
+
+.per-brand{
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #eee;
+    background-color: #fff;
+}
+
+.editer{
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 328rpx;
+    height: 100rpx;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 2px 2px 5px #eee;
+}
+
+.share{
+    margin-left: 10rpx;
+    width: 328rpx;
+    height: 100rpx;
+    background-color: #48a6fd;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.bottom{
+    margin-top: 10px;
+    display: flex;
+}
+
+.pic1 image{
+    height: 70rpx;
+    width: 70rpx;
+}
+
+.pic1{
+    position: absolute;
+    top: 573rpx;
+    right: 55rpx;
+}
+
+.pic2{
+    position: absolute;
+    top: 680rpx;
+    right: 37rpx;
+}
+
+.pic2 image{
+    height: 105rpx;
+    width: 115rpx;
+}

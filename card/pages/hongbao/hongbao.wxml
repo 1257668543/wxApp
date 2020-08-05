@@ -1,0 +1,38 @@
+<!--pages/hongbao/hongbao.wxml-->
+<view class="container"><!--总容器-->
+    <view class="gray"> <!--灰色背景部分容器-->
+        <view class="header"> <!--顶部图片容器-->
+            <view class="circle"><!--顶部红色背景图容器-->
+                <image src="../../images/red-envelope.png" alt=""></image>
+            </view>
+            <view class="user_pic"><!--用户头像容器-->
+                <image src="../../images/user.jpg" alt=""></image>
+            </view>
+        </view>
+        <view class="inf"><!--用户，祝福，金额信息容器-->
+            <view class="username">Shnnosuke</view>
+            <view class="con">恭喜发财，大吉大利</view>
+            <view class="num">12.3<text>元</text></view>
+        </view>
+        <view class="body"><!--功能按钮容器-->
+            <view class="fun1">红包记录</view>
+            <view class="fun2">前去提现</view>
+            <view class="fun3">转发给好友</view>
+        </view>
+    </view>
+    <view class="white"><!--白色背景部分容器-->
+        <view class="numsum">
+            <text>共100个，已领取3个</text>
+        </view>
+        <view class="rer1">
+            <view class="rerName"><text>拆红包</text> (浅浅的夏）</view>
+            <view class="rerTime">2020/7/18 20:24</view>
+            <view class="money">5元</view>
+        </view>
+        <view class="rer2">
+            <view class="rerName"><text>拆红包</text> (浅浅的夏）</view>
+            <view class="rerTime">2020/7/18 20:24</view>
+            <view class="money">5元</view>
+        </view>
+    </view>
+</view>

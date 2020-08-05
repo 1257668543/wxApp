@@ -1,0 +1,106 @@
+<!--pages/mycard/mycard.wxml-->
+<view class="card">
+    <view class="card-wrapper">
+        <view class="user-info">
+            <view class="header-pic">
+                <image class="pic-top" src="../../images/Alisa.png"/>         
+            </view>
+            <view class="user-info-bot">
+                <view class="header-name">
+                    <text class="name" >Alisa</text>  
+                    <image class="header-name_pic" src="../../images/sexw.png" />                      
+                </view>
+                <view class="person-cha">
+                    <view class="cha1 cha">开朗</view>
+                    <view class="cha2 cha">自由职业</view>
+                    <view class="cha3 cha">爱折腾</view>
+                </view>
+                <view class="user-instruct1">
+                    <view class="user-instruct1_left">
+                        <image src="../../images/2.png" />
+                        <text >深圳市</text>
+                    </view>
+                    <view class="user-instruct1_right">
+                        <image src="../../images/5.png" />
+                        <text >互联网</text>
+                    </view>
+                </view>
+                <view class="user-instruct2">
+                    <view class="user-instruct1_left">
+                        <image src="../../images/4.png" />
+                        <text >角色扮演</text>
+                    </view>
+                    <view class="user-instruct1_right">
+                        <image src="../../images/3.png" />
+                        <text >luoqi741</text>
+                    </view>
+                </view>
+                <view class="user-instruct3">
+                    <view class="user-instruct1_left">
+                        <image src="../../images/1.png" />
+                        <text >15017933151</text>
+                    </view>
+                </view>
+            </view>
+        </view>     
+        <view class="looksMe">
+            <view class="user_pic">
+                <image src="../../images/lld.jpg" />
+            </view>
+            <view class="user_pic">
+                <image src="../../images/ws.jpg" />
+            </view>
+            <view class="user_pic">
+                <image src="../../images/kobe.jpg" />
+            </view>
+            <text class="sum-people">
+                今天2人，累计1902人看过我
+            </text>
+            <view class="jiantou"></view>
+        </view>   
+        <view class="support">
+            <view class="support-top">
+                <view class="st-left"></view>
+                <text >提供</text>
+            </view>
+            <view class="support-bottom">
+                <text >软件设计、平面设计、产品设计、电商海报、商场装修、各种你可以想象到的设计</text>
+            </view>
+        </view>
+        <view class="exception">
+             <view class="exception-top">
+                <view class="et-left"></view>
+                <text >需求</text>
+            </view>
+            <view class="exception-bottom">
+                <text >软件设计、平面设计、产品设计、电商海报、商场装修、各种你可以想象到的设计</text>
+            </view>
+        </view>
+        <view class="adv">
+            <image src="../../images/ad.png" />
+        </view>
+        <view class="per-brand">
+            <view class="per-brand_top">
+                <view class="pd-left"></view>
+                <text >个人品牌</text>
+            </view>
+            <view class="brandSum">
+                <view class="brand1">
+                <image src="../../images/adidas.jpg" />
+            </view>
+            <view class="brand2">
+                <image src="../../images/nike.jpg" />
+            </view>
+            <view class="brand3">
+                <image src="../../images/lining.jpg" />
+            </view>
+            </view>   
+        </view>
+        <view class="bottom">
+            <view class="editer">编辑</view>
+            <view class="share">分享门票</view>
+        </view>
+        <view class="pic1"><image src='../../images/ewm.png' /></view>
+        <view class="pic2"><image src='../../images/envelope.png' /></view>
+    </view>
+</view>
