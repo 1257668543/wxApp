@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "userPage": "../../components/userPage/userPage"
+  }
+}

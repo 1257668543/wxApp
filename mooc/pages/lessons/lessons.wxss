@@ -1,0 +1,34 @@
+.container{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+}
+swiper{
+    padding-top: 72rpx;
+    width: 100%;
+    height: 98vh;
+    box-sizing: border-box;
+}
+.slide-image{
+    width: 100%;
+    height: 916rpx;
+}
+.btn{
+    color: #ffffff;
+    background-color: #5ecd69;
+    padding: 15rpx 40rpx;
+    position: absolute;
+    bottom: 81.7rpx;
+    left: 285rpx;
+    font-size: 29rpx;
+    line-height: 30.8rpx;
+    border-radius: 40rpx;
+}
+.colorTurning{
+    width: 100%;
+    height: 21rpx;
+    background-image: linear-gradient(to top, #f9f9f9, #ffffff);
+}

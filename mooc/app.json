@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/lessons/lessons",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "慕课堂",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#c1c4c7",
+    "selectedColor": "#5ecd69",
+    "list": [
+      {
+        "pagePath": "pages/lessons/lessons",
+        "iconPath": "assets/img/lessons.png",
+        "selectedIconPath": "assets/img/lessonsSelected.png",
+        "text": "课堂"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "assets/img/user.png",
+        "selectedIconPath": "assets/img/userSelected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

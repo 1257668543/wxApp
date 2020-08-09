@@ -1,0 +1,28 @@
+<view class="container">
+    <view class="header">
+        <view class="user_pic">
+            <image src="{{loginStatus.user_pic_url}}"></image>
+        </view>
+        <view class="user_name" bindtap="login">
+            <text>{{loginStatus.user_name}}</text>
+        </view>
+    </view>
+    <view class="colorTurning"></view>
+    <view class="footer">
+        <view class="wrapper" wx:for="{{loginStatus.wrapperList}}" wx:key="index">
+            <view class="icon">
+                <image src="{{item.iconUrl}}"></image>   
+            </view>
+            <view class="desc">
+                <text>{{item.desc}}</text>
+            </view>
+            <view class="detail">
+                <image src="../../assets/img/detail.png"></image>
+            </view>
+        </view>    
+    </view>
+    <view class="unlogin">
+        <text>退出登录</text>
+    </view>
+    <view class="colorTurningBottom"></view>
+</view>
