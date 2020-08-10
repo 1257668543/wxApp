@@ -21,11 +21,23 @@ Page({
   },
 
   login() {
-    var app = getApp()
-    app.globalData.isLogin = true
-    wx.switchTab({
-      url: '/pages/user/user'
-    })
+    // var app = getApp()
+    // app.globalData.isLogin = true
+
+    // 使用navigateTo方法保留当前页面跳转到指定页面，此时左上角为返回上一页按钮
+    // wx.navigateTo({
+    //   url: '/pages/login/login'
+    // })
+  
+    //关闭所有页面，打开到应用内的某个页面，此时左上角为返回主页按钮 
+    // wx.reLaunch({
+    //   url: '/pages/login/login'
+    // })
+
+    // 使用redirectTo方法关闭当前页面跳转到指定页面，此时左上角为返回主页按钮
+      wx.redirectTo({
+        url: '/pages/login/login'
+     })
   },
   /**
    * 生命周期函数--监听页面加载

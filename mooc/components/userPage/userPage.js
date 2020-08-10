@@ -20,17 +20,23 @@ Component({
         ]
       }
     },
-    islogin: {
+    isLogin: {
       type: Boolean,
       value: false
     }
   },
 
-  lifetimes: {
-    attached: function() {
-      console.log(111)
-    }
-  },
+  // lifetimes: {
+  //   attached: function() {
+  //     var app = getApp()
+  //     let islogin = app.globalData.isLogin
+  //     console.log(islogin)
+  //     this.setData({
+  //       islogin
+  //     })
+  //   }
+  // },
+
   /**
    * 组件的初始数据
    */
@@ -45,11 +51,16 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    login(){
+    login() {
       var app = getApp()
       app.globalData.isLogin = true
-      console.log(app.globalData.isLogin)
-      this.attached()
-    },  
+      // console.log(app.globalData.isLogin)
+      this.triggerEvent('login', {})
+    },
+    unLogin() {
+      var app = getApp()
+      app.globalData.isLogin = false
+      this.triggerEvent('unLogin', {})
+    }  
   }
 })

@@ -1,2 +1,2 @@
-<userPage loginStatus="{{unlogin}}" islogin="{{!unloginStatus}}" wx:if="{{unloginStatus}}"></userPage>
-<userPage loginStatus="{{user1}}" islogin="{{!unloginStatus}}" wx:elif="{{!unloginStatus}}"></userPage>
+<userPage loginStatus="{{unlogin}}" isLogin="{{!unloginStatus}}" wx:if="{{unloginStatus}}" bindlogin="login"></userPage>
+<userPage loginStatus="{{user1}}" isLogin="{{!unloginStatus}}" wx:elif="{{!unloginStatus}}" bindunLogin="unLogin"></userPage>

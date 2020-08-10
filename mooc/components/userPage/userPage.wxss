@@ -12,7 +12,7 @@
     margin: 40rpx 30rpx 40rpx 51rpx;
     width: 108rpx;
     height: 90rpx;
-    border-radius: 50%;
+    border-radius: 75%;
 }
 .user_name{
     margin-top: 65rpx;

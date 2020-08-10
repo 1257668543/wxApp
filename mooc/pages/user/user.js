@@ -31,6 +31,17 @@ Page({
     }
   },
 
+  // 监听组件中名为Login的triggerEvent事件
+  login() {
+    // console.log("trigger")
+    this.onShow()
+  },
+
+  // 监听组件中名为unLogin的triggerEvent事件
+  unLogin() {
+    this.onShow()
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -55,7 +66,7 @@ Page({
     this.setData({
       unloginStatus
     })
-    console.log(app.globalData.isLogin)
+    // console.log(app.globalData.isLogin)
   },
 
   /**

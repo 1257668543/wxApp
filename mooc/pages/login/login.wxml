@@ -1,0 +1,33 @@
+<view class="container">
+    <view class="logo">
+        <image src="../../assets/img/moocLogo.png"></image>
+    </view>
+    <view class="loginBox">
+        <view class="login">
+            <image src="../../assets/img/iclass.png"></image>
+            <text>爱课程账号登录</text>
+        </view>
+        <view class="login">
+            <image src="../../assets/img/wx.png"></image>
+            <text>微信登录</text>
+        </view>
+        <view class="login">
+            <image src="../../assets/img/phone.png"></image>
+            <text>手机号登录</text>
+        </view>
+        <view class="login">
+            <image src="../../assets/img/email.png"></image>
+            <text>邮箱账号登录</text>
+        </view>
+    </view>
+    <view class="notice">
+        <view class="specialNotice">
+            <text>特别提醒：老师用户请使用中国大学MOOC电脑端账号（例如爱课程账号）进行登录；学生用户请使用</text>
+            <span class="outline">中国大学MOOC线上学习账号（例如手机号、邮箱账号）</span>
+            <text>进行登录。</text>
+        </view>
+        <view class="webNotice">
+            <text>如需使用QQ、微博登录方式，请前往网页端绑定手机号后，使用手机登录。</text>
+        </view>
+    </view>
+</view>

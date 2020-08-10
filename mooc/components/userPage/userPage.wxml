@@ -21,7 +21,7 @@
             </view>
         </view>    
     </view>
-    <view class="unlogin">
+    <view class="unlogin" wx:if="{{isLogin}}" bindtap="unLogin">
         <text>退出登录</text>
     </view>
     <view class="colorTurningBottom"></view>
