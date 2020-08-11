@@ -52,10 +52,13 @@ Component({
    */
   methods: {
     login() {
-      var app = getApp()
-      app.globalData.isLogin = true
-      // console.log(app.globalData.isLogin)
-      this.triggerEvent('login', {})
+      wx.redirectTo({
+        url: '/pages/login/login'
+     })
+      // var app = getApp()
+      // app.globalData.isLogin = true
+      // // console.log(app.globalData.isLogin)
+      // this.triggerEvent('login', {})
     },
     unLogin() {
       var app = getApp()

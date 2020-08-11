@@ -35,6 +35,18 @@ App({
   },
   globalData: {
     userInfo: null,
-    isLogin: false
+    isLogin: false,
+    userDb: [
+      {
+        account: "1257668543",
+        password: "123"
+      },{
+        account: "15070412236",
+        password: "123"
+      },{
+        account: "w1257668543@163.com",
+        password: "123"
+      }
+    ]
   }
 })

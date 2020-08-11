@@ -3,19 +3,19 @@
         <image src="../../assets/img/moocLogo.png"></image>
     </view>
     <view class="loginBox">
-        <view class="login">
+        <view class="login" bindtap="accountLogin">
             <image src="../../assets/img/iclass.png"></image>
             <text>爱课程账号登录</text>
         </view>
-        <view class="login">
+        <view class="login" bindtap="wxLogin">
             <image src="../../assets/img/wx.png"></image>
             <text>微信登录</text>
         </view>
-        <view class="login">
+        <view class="login" bindtap="accountLogin">
             <image src="../../assets/img/phone.png"></image>
             <text>手机号登录</text>
         </view>
-        <view class="login">
+        <view class="login" bindtap="accountLogin">
             <image src="../../assets/img/email.png"></image>
             <text>邮箱账号登录</text>
         </view>

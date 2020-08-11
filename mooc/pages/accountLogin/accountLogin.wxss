@@ -1,0 +1,61 @@
+.account, .password, .loginBtn{
+    width: 648rpx;
+    height: 75rpx;
+    margin: 39rpx 51rpx;
+}
+.account, .password{
+    display: flex;
+    border: 1rpx solid #dddddd;
+    align-items: center
+}
+.icon{
+    margin-left: 14rpx;
+    width: 48rpx;
+    height: 48rpx;
+}
+.txt{
+    height: 75rpx;
+    margin-left: 24rpx;
+    flex: 1;
+    font-size: 32rpx;
+}
+.loginBtn{
+    text-align: center;
+    line-height: 75rpx;
+    background-color: #59c465;
+    color: #ffffff;
+}
+.radio{
+    padding-left: 51.2rpx;
+}
+.radio text{
+    padding-left: 15rpx;
+    color: #999999;
+}
+/* 单选框样式 */
+/* 初始样式 */
+radio .wx-radio-input{
+width: 32rpx;
+height: 32rpx;
+border-radius: 0;
+border: 1px solid #aaaaaa;
+}
+/* 选中后的 背景样式 （ 背景 边框 ） */
+radio .wx-radio-input.wx-radio-input-checked{
+width: 32rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+height: 32rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+border: 1px solid #aaaaaa;
+background:white!important;
+}
+/* 选中后的 对勾样式  */
+radio .wx-radio-input.wx-radio-input-checked::before{
+width: 32rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+height: 32rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+line-height: 32rpx;
+text-align: center;
+font-size:36rpx; /* 对勾大小 */
+color:#59c465; /* 对勾颜色  */
+background: white;
+transform:translate(-50%, -50%) scale(1);
+-webkit-transform:translate(-50%, -50%) scale(1);
+}

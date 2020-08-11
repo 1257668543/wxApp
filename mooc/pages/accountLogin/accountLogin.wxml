@@ -1,0 +1,27 @@
+<view class="container">
+    <view class="account">
+        <image class="icon" src="../../assets/img/userIcon.png"></image>
+        <input class="txt" auto-focus placeholder="账号" bindinput="inputAccount"/>
+    </view>
+    <view class="password">
+        <image class="icon" src="../../assets/img/passwordIcon.png"></image>
+        <input class="txt" password type="text" placeholder="密码" bindinput="inputPassword"/>
+    </view>
+    <view class="notice err1" wx:if="{{err}} === "err1"">
+        <image class="x" src=""></image>
+        <text class="word">请填写用户名</text>
+    </view>
+    <view class="notice err2" wx:if="{{err}} === "err2"">
+        <image class="x" src=""></image>
+        <text class="word">请填写密码</text>
+    </view>
+    <view class="loginBtn" bindtap="login">
+        <text>登录</text>
+    </view>
+    <view class="func">
+        <label class="radio">
+            <radio checked="{{rememberPassword}}" bindtap="changeRemember"/>
+            <text>十天内免登录</text>
+        </label>
+    </view>
+</view>

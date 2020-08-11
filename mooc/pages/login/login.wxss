@@ -27,6 +27,9 @@
     width: 42rpx;
     height: 42rpx;
 }
+.login text{
+    font-size: 32rpx;
+}
 .notice{
     padding: 69.5rpx 30rpx 0 30rpx;
 }
