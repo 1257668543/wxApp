@@ -2,7 +2,7 @@
 	"miniprogramRoot": "miniprogram/",
 	"cloudfunctionRoot": "cloudfunctions/",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"enhance": true,
 		"postcss": true,
@@ -29,7 +29,7 @@
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"appid": "wx208ff745ee46b3fb",
-	"projectname": "waiBao",
+	"projectname": "github",
 	"libVersion": "2.8.1",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
